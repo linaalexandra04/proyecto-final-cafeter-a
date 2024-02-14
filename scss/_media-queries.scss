@@ -1,0 +1,88 @@
+
+@media (max-width: 990px) {
+    .menu-icon {
+      display: block;
+      color: $main-color;
+    }
+  
+    .navbar {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color:$clear-coffee;
+    }
+  
+    .navbar a {
+      display: block;
+      margin-right: 80rem;
+      padding: 1rem;
+      color: $dark-blue;
+      text-align: left;
+      text-shadow: -2px 1px 50px rgba(27, 30, 36, 0.48);
+      
+    }
+  
+    .menu-toggle:checked ~ .navbar {
+      display: flex;
+    }
+  }
+
+  @media (max-width: 990px){
+    .about-us{
+      .about-img{
+        display: none;
+      }
+    }
+  }
+
+@media (min-width:768px){
+  .gallery-item{
+    flex: 0 0 calc(50% - 20%);
+  }
+}
+
+@media (max-width: 881px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 722px) {
+  .food-menu-container img {
+    margin: auto;
+  }
+
+  .food-menu-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
