@@ -691,6 +691,8 @@ span {
     left: 0;
     width: 100%;
     background-color: #ffc5bb;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .navbar a {
     display: block;
